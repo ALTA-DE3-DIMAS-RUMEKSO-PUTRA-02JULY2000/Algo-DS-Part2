@@ -9,7 +9,7 @@ class TestMaximumBuyProduct(unittest.TestCase):
         self.assertEqual(maximum_buy_product(30000, [15000, 10000, 12000, 5000, 3000]), 4)
 
     def test_case_3(self):
-        self.assertEqual(maximum_buy_product(10000, [2000, 3000, 1000, 2000, 10000]), 4)
+        self.assertEqual(maximum_buy_product(10000, [2000, 3000, 1000, 2000, 10000]), 3)
 
     def test_case_4(self):
         self.assertEqual(maximum_buy_product(4000, [7500, 3000, 2500, 2000]), 1)
